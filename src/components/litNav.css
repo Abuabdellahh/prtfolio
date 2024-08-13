@@ -1,0 +1,16 @@
+@media (max-width: 664px) {
+  .litNav {
+    position: absolute;
+    top: 1px; /* Adjust as needed */
+    right: 20px; /* Adjust as needed */
+    margin-left: 0; /* Reset any left margin */
+
+    gap: 0.8px; /* Adjust gap between items */
+    padding-top: 0px;
+    margin-top: 0px;
+  }
+
+  .litNav li {
+    font-size: 25px; /* Adjust font size */
+  }
+}
