@@ -75,27 +75,32 @@ const Hero = () => {
           <ul className="flex justify-center space-x-4 mb-4">
             {[
               {
-                to: "https://www.facebook.com/eibrahimbelayneh",
+                href: "#",
                 icon: <FaFacebookF />,
+                target: "_blank",
               },
               {
-                to: "https://twitter.com/eibrahimbelayn1",
+                href: "https://twitter.com/eibrahimbelayn1",
                 icon: <FaTwitter />,
+                target: "_blank",
               },
-              { to: "#", icon: <FaInstagram /> },
+              { href: "#", icon: <FaInstagram /> },
               {
-                to: "linkedin.com/in/eibrahimbelayneh",
+                href: "https://linkedin.com/in/eibrahimbelayneh",
                 icon: <FaLinkedinIn />,
+                target: "_blank",
               },
-              { to: "Abuabdellah1099@gmail.com", icon: <FaGoogle /> },
+              { href: "mailto:Abuabdellah1099@gmail.com", icon: <FaGoogle /> },
             ].map((link, index) => (
               <li key={index}>
-                <Link
-                  to={link.to}
+                <a
+                  href={link.href}
+                  target={link.target}
                   className="text-lg sm:text-xl md:text-2xl hover:text-blue-400"
+                  rel="noopener noreferrer"
                 >
                   {link.icon}
-                </Link>
+                </a>
               </li>
             ))}
           </ul>
