@@ -1,10 +1,11 @@
 import React, { useState, useEffect } from "react";
 import {
-  FaFacebookF,
+  // FaFacebookF,
   FaTwitter,
-  FaInstagram,
+  // FaInstagram,
   FaLinkedinIn,
-  FaGoogle,
+  // FaGoogle,
+  FaGithub, // Added FaGithub
 } from "react-icons/fa";
 import heroImage from "../assets/backgrounds/hero.jpg";
 import { Link } from "react-router-dom";
@@ -74,23 +75,23 @@ const Hero = () => {
           </p>
           <ul className="flex justify-center space-x-4 mb-4">
             {[
-              {
-                href: "#",
-                icon: <FaFacebookF />,
-                target: "_blank",
-              },
+              // {
+              //   href: "#",
+              //   icon: <FaFacebookF />,
+              //   target: "_blank",
+              // },
               {
                 href: "https://twitter.com/eibrahimbelayn1",
                 icon: <FaTwitter />,
                 target: "_blank",
               },
-              { href: "#", icon: <FaInstagram /> },
+              { href: "https://github.com/Abuabdellahh", icon: <FaGithub />, target: "_blank" }, // Changed to GitHub icon and link
               {
                 href: "https://linkedin.com/in/eibrahimbelayneh",
                 icon: <FaLinkedinIn />,
                 target: "_blank",
               },
-              { href: "mailto:Abuabdellah1099@gmail.com", icon: <FaGoogle /> },
+              // { href: "mailto:Abuabdellah1099@gmail.com", icon: <FaGoogle /> },
             ].map((link, index) => (
               <li key={index}>
                 <a
