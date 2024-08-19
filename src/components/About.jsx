@@ -86,22 +86,24 @@ const About = () => {
               className="mt-4 text-slate-950 text-[14px]
                md:text-[16px] max-w-full leading-[24px] md:leading-[30px]"
             >
+              {" "}
               Welcome to my portfolio! I am Eibrahim Belayneh, a passionate and
               dedicated full-stack web developer with a knack for creating
               efficient and user-friendly applications. My journey in web
               development has equipped me with a diverse skill set, including
               expertise in React.js, Redux Toolkit, RTK Query, Node.js,
-              Express.js, GraphQL, MySQL, MongoDB, PostgreSQL, Tailwind CSS, and
-              TypeScript. With a Bachelor of Science in GIS from Wolega
+              Express.js, GraphQL, MySQL, PostgreSQL, Tailwind CSS, and
+              TypeScript. With a Bachelor of Science in GIS from Wollega
               University and a Full-Stack Web Development certification from
               Evangadi Tech, I have successfully completed various projects such
               as Netflix, Amazon, and Apple clones, as well as a personal
               portfolio website. My experience also extends to improving mobile
               user engagement, implementing RESTful APIs, and participating in
-              Agile development. I am fluent in Amharic, English, and Arabic,
-              and I continuously strive to expand my knowledge and skills.
-              Currently, I am exploring TypeScript and AWS, and I am open to
-              junior developer roles where I can contribute and grow.
+              Agile development. Amharic is my mother tongue, and I am also
+              fluent in English and Arabic. I continuously strive to expand my
+              knowledge and skills. Currently, I am exploring TypeScript and AWS
+              and am open to junior developer roles where I can contribute and
+              grow.
             </motion.p>
 
             <motion.div
